@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Macross Fan Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="./css/stylesheet1.css"
+          rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {height: 450px}
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            padding-top: 20px;
+            background-color: dimgrey;
+            height: 100%;
+            color: black;
+        }
+
+        /* Set black background color, white text and some padding */
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {height:auto;}
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../project3_3010/projhome.html" target="_blank"><img src="img/macross-kite.png" alt="macross logo" height="30px" width="30px"/></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="../project3_3010/projhome.html" target="_blank">Home</a></li>
+                <li><a href="projregistration.php" target="_blank">Registration</a></li>
+                <li><a href="projanimation.html" target="_blank">Animation</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+            <p><a href="../project3_3010/projhome.html" target="_blank">Home</a></p>
+            <p><a href="projregistration.php" target="_blank">Registration</a></p>
+            <p><a href="projanimation.html" target="_blank">Animation</a></p>
+        </div>
+        <div class="col-sm-8 text-left">
+            <div class ="topsection">
+                <h1>Welcome to Macross Fan</h1>
+                <h2>Anime. Music. Mecha. Love.</h2>
+            </div>
+            <hr>
+            <div class="img-div">
+                <img src="img/macross.gif" alt="gif of the sdf-macross"/>
+            </div>
+            <hr>
+            <h3 id="heading2">What is Macross?</h3>
+            <p id="summary">Macross (マクロス, Makurosu, English: /məˈkrɒs/) is a Japanese science fiction mecha anime media
+                franchise/media mix, created by Studio Nue (most prominently mecha designer, writer and producer
+                Shōji Kawamori) and Artland in 1982. The franchise features a fictional history of Earth and the
+                human race after the year 1999, as well as the history of humanoid civilization in the
+                Milky Way. It consists of four TV series, four movies, six OVAs, one light novel, and five manga
+                series, all sponsored by Big West Advertising, in addition to 40 video games set in the
+                Macross universe, two crossover games, and a wide variety of physical merchandise.</p>
+        </div>
+        <div class="col-sm-2 sidenav" id="rightSide">
+
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid text-center">
+    <p id="footer-text"><b>Links to other Macross websites and music playlist</b></p>
+    <ul>
+        <li><a href="https://macross.fandom.com/wiki/The_Macross_Wiki" target="_blank">Macross-Wiki</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Tf-hD_DFeyU&list=PLFnaONEQ1_2ERN66crwLtxQviVg_2__Y-" target="_blank">Macross-Music</a></li>
+        <li><a href="http://www.macross2.net/m3/m3.html" target="_blank">Macross-Mecha</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>

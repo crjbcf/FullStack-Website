@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="./css/stylesheet2.css"
+          rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {height: 450px}
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            padding-top: 20px;
+            /*background-color: #f1f1f1; */
+            height: 100%;
+            border-style: solid;
+            border-color: #111111;
+            color: #111111;
+        }
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {height:auto;}
+        }
+    </style>
+</head>
+<body class="animation container-fluid">
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="projhome.html" target="_blank"><img src="img/macross-kite.png" alt="macross logo" height="30px" width="30px"/></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="projhome.html" target="_blank">Home</a></li>
+                <li><a href="projregistration.php" target="_blank">Registration</a></li>
+                <li><a href="../project3_3010/projanimation.html" target="_blank">Animation</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+            <p><a href="projhome.html" target="_blank" style="color: yellow;">Home</a></p>
+            <p><a href="projregistration.php" target="_blank" style="color: yellow;">Registration</a></p>
+            <p><a href="/projanimation.html" target="_blank" style="color: yellow;">Animation</a></p>
+        </div>
+        <div class="col-sm-8 text-left">
+            <h1 id="animation-head">Animation!</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="img-div">
+                        <img class=img-responsive src="img/fighter.png" alt="animated fighter"/>
+                    </div>
+                </div>
+            </div><br/>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="img-div2">
+                        <img class=img-responsive src="img/battroid1.png" alt="animated fighter"/>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h2 id="valk-heading">VF-1 Valkyrie</h2>
+            <p id="valk-summary">After the crash-landing of the Alien StarShip-One in July 1999 it is discovered the alien crew was
+                a race of giants some five times the size of a human. Fearful of being unprepared for a conflict with
+                these aliens, the newly formed United Nations Government (UNG) begins researching anti-giant weapon
+                systems technologies. Utilizing the now named OverTechnology found on the ASS-1, the non-variable
+                humanoid mecha called the Destroid is designed; another weapon system is the transformable Battroid.
+                The UNG contracts Stonewell and Bellcom to develop an all-environment variable fighter eventually
+                known as the "Valkyrie." Rising to the challenge, Stonewell and Bellcom subcontract with OT reaction
+                powerplant producer Shinnakasu Heavy Industry and Destroid developer Centinental to complete a
+                basic design by 2005. The first transformable prototype is successfully tested in 2007 and the
+                UNG decides to formally adopt the Valkyrie in November of that year. By late 2008, mass production
+                is in full swing on the VF-1A variable fighter.
+                <br/><br/>
+                From February 2009 to March 2010, the VF-1A Valkyrie served as the standard variable fighter
+                of the U.N. Spacy in Space War I. The VF-1 proved to be an extremely capable craft,
+                successfully combating a variety of Zentradi mecha even in most sorties which saw UN Spacy
+                forces significantly outnumbered. The versatility of the Valkyrie design enabled the variable
+                fighter to act as both large-scale infantry and as air/space superiority fighter.
+                The basic Vf-1 was deployed in four minor variants (designated A, D, J, and S) and its success
+                was increased by continued development of various enhancements including the GBP-1S "Armored" Valkyrie
+                and FAST Pack "Super" Valkyrie weapon systems.</p>
+        </div>
+    </div>
+</div>
+
+<!--<footer class="container-fluid text-center">
+    <p>Footer Text</p>
+</footer>
+-->
+</body>
+</html>
